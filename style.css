@@ -56,42 +56,6 @@
     background-position: center;
     background-size: cover;
 }
- /* .fs-7{font-size: 10px;}
-.fs-8{font-size: 12px;}
-.left-arrow{
-    position: absolute;
-    height: 0;
-    width: 0;
-    top: 28px;
-    z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 1px solid #fff;
-    right: -14;
-}
-.right-arrow{
-    position: absolute;
-    height: 0;
-    width: 0;
-    top: 28px;
-    z-index: 1;
-    border-top: 15px solid transparent;
-    border-bottom: 15px solid transparent;
-    border-left: 1px solid #fff;
-    left: -14;
-}
-.card img{position: absolute; border-radius: 50%; right: -77px; top: 32px; z-index: 10;}
-.rightbox img{left: -77px;}
-.leftbox{
-  left: -17%;
-}
-.rightbox{
-  left: 19%;
-}
-.whiteline::after{
-  content: ''; position: absolute; width: 6px;
-   height: 100%; background: #fff; top: 42px;
-    left: 50%; margin-left: 9px; z-index: -1;} */ 
     :root {
         --white: #ffffff;
         --black: #000000;
@@ -100,7 +64,7 @@
     }
     
     .timeline {
-        padding: 50px 0;
+        padding: 40px 0;
         position: relative;
     }
     
@@ -255,16 +219,31 @@
             display: block;
             position: absolute;
             top: 0;
-            left: 3%;
+            left: -1%;
+            margin-left: 10px;
         }
     
         .timeline-image {
             position: absolute;
-            left: -5%;
+            left: -3%;
+
         }
       
         .timeline-image::before {
             width: 60px;
             height: 60px;
-         }
+        }
     }
+    .navbar-toggler{
+        color: #fff !important;
+    }
+    .navbar-toggler-icon{
+        color: #fff !important;
+    }
+    .chill{
+        font-size: 60px;
+    }
+    .coss{
+        color: rgba(128, 128, 128, 0.075);
+    }
+    
