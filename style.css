@@ -1,0 +1,270 @@
+.logo img{
+    width: 170px;
+    height: 100px;
+}
+.navbar-toggler{
+    display: none;
+}
+.gaol{
+    background-image: url(image/header-bg.jpg);
+    width: 100%;
+    height: 700px;
+    background-position: center;
+    background-size: cover;
+}
+.welcome{
+    padding-top: 300px !important;
+} 
+.ronde{
+   margin: auto;
+    border: 1px solid yellow;
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.nav-link:hover{
+    color: yellow !important;
+}
+.card-img-top a:hover{
+    z-index: 1;
+    background-color: yellow !important;
+    opacity: 90%;
+}
+.circle { 
+    padding: 10px;
+   background-color: black;
+   border-radius: 50%;
+}
+.cercle { 
+   padding: 10px;
+   margin-left: 10px;
+   margin-right: 10px;
+   background-color: black !important;
+   border-radius: 50%;
+}
+.cercle:hover{
+    background-color: rgba(0, 0, 0, 0.616);
+}
+.circle:hover{
+    background-color: rgba(0, 0, 0, 0.616);
+}
+.map{
+    width: 100%;
+    height: 690px;
+    background: url(data:image/png;base64,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) rgba(0, 0, 0, 0.616);   
+    background-position: center;
+    background-size: cover;
+}
+ /* .fs-7{font-size: 10px;}
+.fs-8{font-size: 12px;}
+.left-arrow{
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 1px solid #fff;
+    right: -14;
+}
+.right-arrow{
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: 28px;
+    z-index: 1;
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-left: 1px solid #fff;
+    left: -14;
+}
+.card img{position: absolute; border-radius: 50%; right: -77px; top: 32px; z-index: 10;}
+.rightbox img{left: -77px;}
+.leftbox{
+  left: -17%;
+}
+.rightbox{
+  left: 19%;
+}
+.whiteline::after{
+  content: ''; position: absolute; width: 6px;
+   height: 100%; background: #fff; top: 42px;
+    left: 50%; margin-left: 9px; z-index: -1;} */ 
+    :root {
+        --white: #ffffff;
+        --black: #000000;
+        --grey: #858788;
+        --gray: #ebebeb;
+    }
+    
+    .timeline {
+        padding: 50px 0;
+        position: relative;
+    }
+    
+    .timeline-nodes {
+        padding-bottom: 25px;
+        position: relative;
+    }
+    
+    .timeline-nodes:nth-child(even) {
+        flex-direction: row-reverse;
+    }
+    
+    .timeline h3,
+    .timeline p {
+        padding: 5px 15px;
+    }
+    
+    .timeline h3 {
+        color: #000000;
+        font-weight: lighter;
+    }
+    .timeline p {
+        color: var(--grey)
+    }
+    
+    .timeline::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        width: 0;
+        border-left: 2px solid var(--grey);
+        height: 100%;
+        z-index: 1;
+        transform: translateX(-50%);
+    }
+    
+    .timeline-nodes:nth-child(odd) h3,
+    .timeline-nodes:nth-child(odd) p,
+    .timeline-nodes:nth-child(odd) h2 {
+        text-align: right;
+    }
+    
+    .timeline-nodes:nth-child(odd) {
+        text-align: left;
+    }
+    
+    .timeline-nodes:nth-child(even) {
+        text-align: right;
+    }
+    .timeline-image {
+        position: relative;
+        z-index: 100;
+    }
+    
+    .timeline-image::before {
+        content: "";
+        width: 100px;
+        height: 100px;
+        border: 2px solid var(--grey);
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #fff;
+        z-index: 1;
+    }
+    
+    .timeline-image img {
+        height: 100%;
+        position: relative;
+        z-index: 100;
+    }
+
+    @media (max-width: 767px) {
+    
+        .timeline-nodes:nth-child(odd) h3,
+        .timeline-nodes:nth-child(odd) p {
+            text-align: left
+        }
+    
+        .timeline-nodes:nth-child(even) {
+            flex-direction: row;
+        }
+    
+        .timeline::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 4%;
+            width: 0;
+            border-left: 2px solid var(--grey);
+            height: 100%;
+            z-index: 1;
+            transform: translateX(-50%);
+        }
+    
+        .timeline h3 {
+            font-size: 1.7rem;
+        }
+    
+        .timeline p {
+            font-size: 14px;
+        }
+    
+        .timeline-image {
+            position: absolute;
+            left: 0%;
+            top: 60px;
+        }
+    
+        .timeline-nodes:nth-child(odd) .timeline-content::after {
+            content: "";
+            position: absolute;
+            top: 5%;
+            left: auto;
+            right: 100%;
+            width: 0;
+            border-left: 0;
+            border-right: 10px solid var(--grey);
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+    
+        .timeline-nodes:nth-child(even) .timeline-content::after {
+            content: "";
+            position: absolute;
+            top: 5%;
+            right: 100%;
+            width: 0;
+            border-right: 10px solid var(--grey);
+            border-top: 10px solid transparent;
+            border-bottom: 10px solid transparent;
+        }
+    
+        .timeline-nodes:nth-child(even) .timeline-date {
+            text-align: left;
+        }
+    
+        .timeline-image::before {
+            width: 65px;
+            height: 65px;
+        }
+    }
+    @media (max-width: 575px) {
+        .timeline::before {
+            content: "";
+            display: block;
+            position: absolute;
+            top: 0;
+            left: 3%;
+        }
+    
+        .timeline-image {
+            position: absolute;
+            left: -5%;
+        }
+      
+        .timeline-image::before {
+            width: 60px;
+            height: 60px;
+         }
+    }

@@ -1,0 +1,632 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" 
+     crossorigin="anonymous">
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" 
+      crossorigin="anonymous"></script>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+       integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Tache 8 de bootstrap</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarExample">
+  <div class="gaol">
+    <nav class="navbar navbar-expand-lg bg-dark fixed-top">
+        <div class="container">
+          <a class="logo" href="#"><img src="image/navbar-logo (1).svg"  alt=""></a>
+          <button  class="navbar-toggler d-flex text-secondary" type="button" data-bs-toggle="collapse" 
+          data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+           aria-expanded="false" aria-label="Toggle navigation">
+            <h4 class="coss">Menu</h4><span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 text-light">
+              <li class="nav-item">
+                <a class="nav-link pe-5 text-light" href="#services">SERVICES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-5 text-light" href="#portfolio">PORTFOLIO</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link pe-5 text-light" href="#about" >ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-5 text-light" href="#team">TEAM</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link pe-5 text-light" href="#contact">CONTACT</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="welcome text-center text-light">
+        <h4 class="fs-3 mb-5">Welcome To Our Studio</h4>
+        <h5 class="fs-1 fw-bolder mb-5">IT'S NICE TO MEET YOU</h5>
+        <button type="button" class="btn btn-warning text-white px-3 py-3 fs-4 fw-bolder">TELL ME MORE</button>
+      </div>
+  </div>
+      <!-- services -->
+      <section id="services">
+        <div class="container text-center">
+          <div class="row mt-5">
+            <h2 class="fs-1 fw-bolder">SERVICES</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur.</p>
+            <div class="card-group">
+              <div class="col-lg-4">
+              <div class="card border-0">
+                <div class="ronde">
+                  <i class="fa-solid panier fa-cart-shopping text-center fs-1 py-5 text-light"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">E-Commerce</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+              </div>
+              </div>
+              <div class="col-lg-4">
+              <div class="card border-0">
+                <div class="ronde">
+                  <i class="fa-solid panier fa-laptop text-center fs-1 py-5 text-light"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Responsive Design</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+              </div>
+              </div>
+              <div class="col-lg-4">
+              <div class="card border-0">
+                <div class="ronde">
+                  <i class="fa-solid panier fa-lock text-center fs-1 py-5 text-light"></i>
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Web Security</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+              </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!-- portfolio -->
+      <section id="portfolio" class="bg-light py-5">
+        <div class="container text-center">
+          <div class="row">
+            <h2 class="fs-1 fw-bolder">PORTFOLIO</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur.</p>
+          </div>
+            <div class="row mb-4">
+              <div class="col-lg-4">
+                <div class="card border-0">
+                  <a type="button" class="modaux" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="tek">
+                      <img src="image/portfolio/1.jpg" class="card-img-top" alt="...">
+                    </div>
+                  </a>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                      <div class="modal-content">
+                        <div class="modal-header border-0 d-flex justify-content-ends">
+                          <a type="button" class="btn-close w-75" data-bs-dismiss="modal" aria-label="Close"></a>
+                        </div>
+                        <div class="modal-body">
+                          <div class="modal-body">
+                            <h2 class="fs-1 fw-bolder">PROJECT NAME</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                            <img src="image/portfolio/1.jpg" class="img-fluid w-50" alt="...">
+                            <div class="clean text-md text-center mt-3">
+                              <p>Use this area to describe your project.
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                  Est blanditiis <br> dolorem culpa incidunt minus dignissimos deserunt 
+                                  repellat aperiam quasi sunt officia expedita beatae <br> cupiditate,
+                                   maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            </div>
+                              <p class="fw-bolder">Client:<span class="fw-lighter ps-2">Threads</span></p>
+                              <p class="fw-bolder">Category:<span class="fw-lighter ps-2">Illustration</span></p>
+                            <div class="grif mt-3">
+                              <button type="button" class="btn btn-warning text-white px-3 py-3 fs-4 fw-bolder">CLOSE PROJECT</button>
+                            </div>        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Threads</h5>
+                    <p class="card-text">Illustration</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0">
+                  <a type="button" class="modaux" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="tek">
+                      <img src="image/portfolio/2.jpg" class="card-img-top" alt="...">
+                    </div>
+                  </a>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                      <div class="modal-content">
+                        <div class="modal-header border-0 d-flex justify-content-ends">
+                          <a type="button" class="btn-close w-75" data-bs-dismiss="modal" aria-label="Close"></a>
+                        </div>
+                        <div class="modal-body">
+                          <div class="modal-body">
+                            <h2 class="fs-1 fw-bolder">PROJECT NAME</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                            <img src="image/portfolio/2.jpg" class="img-fluid w-50" alt="...">
+                            <div class="clean text-md text-center mt-3">
+                              <p>Use this area to describe your project.
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                  Est blanditiis <br> dolorem culpa incidunt minus dignissimos deserunt 
+                                  repellat aperiam quasi sunt officia expedita beatae <br> cupiditate,
+                                   maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            </div>
+                              <p class="fw-bolder">Client:<span class="fw-lighter ps-2">Threads</span></p>
+                              <p class="fw-bolder">Category:<span class="fw-lighter ps-2">Illustration</span></p>
+                            <div class="grif mt-3">
+                              <button type="button" class="btn btn-warning text-white px-3 py-3 fs-4 fw-bolder">CLOSE PROJECT</button>
+                            </div>        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Explore</h5>
+                    <p class="card-text">Graphic Design</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0">
+                  <a type="button" class="modaux" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="tek">
+                      <img src="image/portfolio/3.jpg" class="card-img-top" alt="...">
+                    </div>
+                  </a>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                      <div class="modal-content">
+                        <div class="modal-header border-0 d-flex justify-content-ends">
+                          <a type="button" class="btn-close w-75" data-bs-dismiss="modal" aria-label="Close"></a>
+                        </div>
+                        <div class="modal-body">
+                          <div class="modal-body">
+                            <h2 class="fs-1 fw-bolder">PROJECT NAME</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                            <img src="image/portfolio/3.jpg" class="img-fluid w-50" alt="...">
+                            <div class="clean text-md text-center mt-3">
+                              <p>Use this area to describe your project.
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                  Est blanditiis <br> dolorem culpa incidunt minus dignissimos deserunt 
+                                  repellat aperiam quasi sunt officia expedita beatae <br> cupiditate,
+                                   maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            </div>
+                              <p class="fw-bolder">Client:<span class="fw-lighter ps-2">Threads</span></p>
+                              <p class="fw-bolder">Category:<span class="fw-lighter ps-2">Illustration</span></p>
+                            <div class="grif mt-3">
+                              <button type="button" class="btn btn-warning text-white px-3 py-3 fs-4 fw-bolder">CLOSE PROJECT</button>
+                            </div>        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Finish</h5>
+                    <p class="card-text">Identity</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-4">
+                <div class="card border-0">
+                  <a type="button" class="modaux" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="tek">
+                      <img src="image/portfolio/4.jpg" class="card-img-top" alt="...">
+                    </div>
+                  </a>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                      <div class="modal-content">
+                        <div class="modal-header border-0 d-flex justify-content-ends">
+                          <a type="button" class="btn-close w-75" data-bs-dismiss="modal" aria-label="Close"></a>
+                        </div>
+                        <div class="modal-body">
+                          <div class="modal-body">
+                            <h2 class="fs-1 fw-bolder">PROJECT NAME</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                            <img src="image/portfolio/4.jpg" class="img-fluid w-50" alt="...">
+                            <div class="clean text-md text-center mt-3">
+                              <p>Use this area to describe your project.
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                  Est blanditiis <br> dolorem culpa incidunt minus dignissimos deserunt 
+                                  repellat aperiam quasi sunt officia expedita beatae <br> cupiditate,
+                                   maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            </div>
+                              <p class="fw-bolder">Client:<span class="fw-lighter ps-2">Threads</span></p>
+                              <p class="fw-bolder">Category:<span class="fw-lighter ps-2">Illustration</span></p>
+                            <div class="grif mt-3">
+                              <button type="button" class="btn btn-warning text-white px-3 py-3 fs-4 fw-bolder">CLOSE PROJECT</button>
+                            </div>        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Lines</h5>
+                    <p class="card-text">Branding</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0">
+                  <a type="button" class="modaux" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="tek">
+                      <img src="image/portfolio/5.jpg" class="card-img-top" alt="...">
+                    </div>
+                  </a>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                      <div class="modal-content">
+                        <div class="modal-header border-0 d-flex justify-content-ends">
+                          <a type="button" class="btn-close w-75" data-bs-dismiss="modal" aria-label="Close"></a>
+                        </div>
+                        <div class="modal-body">
+                          <div class="modal-body">
+                            <h2 class="fs-1 fw-bolder">PROJECT NAME</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                            <img src="image/portfolio/5.jpg" class="img-fluid w-50" alt="...">
+                            <div class="clean text-md text-center mt-3">
+                              <p>Use this area to describe your project.
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                  Est blanditiis <br> dolorem culpa incidunt minus dignissimos deserunt 
+                                  repellat aperiam quasi sunt officia expedita beatae <br> cupiditate,
+                                   maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            </div>
+                              <p class="fw-bolder">Client:<span class="fw-lighter ps-2">Threads</span></p>
+                              <p class="fw-bolder">Category:<span class="fw-lighter ps-2">Illustration</span></p>
+                            <div class="grif mt-3">
+                              <button type="button" class="btn btn-warning text-white px-3 py-3 fs-4 fw-bolder">CLOSE PROJECT</button>
+                            </div>        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Southwest</h5>
+                    <p class="card-text">Website Design</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4">
+                <div class="card border-0">
+                  <a type="button" class="modaux" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    <div class="tek">
+                      <img src="image/portfolio/6.jpg" class="card-img-top" alt="...">
+                    </div>
+                  </a>
+                  <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog modal-fullscreen">
+                      <div class="modal-content">
+                        <div class="modal-header border-0 d-flex justify-content-ends">
+                          <a type="button" class="btn-close w-75" data-bs-dismiss="modal" aria-label="Close"></a>
+                        </div>
+                        <div class="modal-body">
+                          <div class="modal-body">
+                            <h2 class="fs-1 fw-bolder">PROJECT NAME</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur.</p>
+                            <img src="image/portfolio/6.jpg" class="img-fluid w-50" alt="...">
+                            <div class="clean text-md text-center mt-3">
+                              <p>Use this area to describe your project.
+                                 Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                  Est blanditiis <br> dolorem culpa incidunt minus dignissimos deserunt 
+                                  repellat aperiam quasi sunt officia expedita beatae <br> cupiditate,
+                                   maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                            </div>
+                              <p class="fw-bolder">Client:<span class="fw-lighter ps-2">Threads</span></p>
+                              <p class="fw-bolder">Category:<span class="fw-lighter ps-2">Illustration</span></p>
+                            <div class="grif mt-3">
+                              <button type="button" class="btn btn-warning text-white px-3 py-3 fs-4 fw-bolder">CLOSE PROJECT</button>
+                            </div>        
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">Window</h5>
+                    <p class="card-text">Photography</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <section id="about" class="text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 section-intro text-center">
+                    <h1>About</h1>
+                    <p class="fst-italic">Lorem ipsum dolor sit amet consectetur.</p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="timeline">
+                    <div
+                        class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+                        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+                            <h2 class="text-black fw-bold fs-5 me-2">2009-2011</h2>
+                            <h3 class="text-black fw-bold fs-4">Timeline Heading</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, eaque amet deleniti hic
+                                quas qui cumque delectus aliquid, eius quia quod, quae, aliquam aspernatur facilis.
+                                Minima quod corporis dignissimos porro.</p>
+                        </div>
+                        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+                            <img src="image/about/1.jpg" class="img-fluid rounded-circle img-thumbnail" alt="img">
+                        </div>
+                        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+                        </div>
+                    </div>
+                    <div
+                        class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+                        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+                            <h2 class="text-black fw-bold fs-5 me-2">2009-2011</h2>
+                            <h3 class="text-black fw-bold fs-4">Timeline Heading</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, eaque amet deleniti hic
+                                quas qui cumque delectus aliquid, eius quia quod, quae, aliquam aspernatur facilis.
+                                Minima quod corporis dignissimos porro.</p>
+                        </div>
+                        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+                            <img src="image/about/2.jpg" class="img-fluid rounded-circle img-thumbnail" alt="img">
+                        </div>
+                        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+                        </div>
+                    </div>
+
+                    <div
+                        class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+                        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+                            <h2 class="text-black fw-bold fs-5 me-2">2009-2011</h2>
+                            <h3 class="text-black fw-bold fs-4">Timeline Heading</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, eaque amet deleniti hic
+                                quas qui cumque delectus aliquid, eius quia quod, quae, aliquam aspernatur facilis.
+                                Minima quod corporis dignissimos porro.</p>
+                        </div>
+                        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+                            <img src="image/about/3.jpg" class="img-fluid rounded-circle img-thumbnail" alt="img">
+                        </div>
+                        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+                        </div>
+                    </div>
+
+                    <div
+                        class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+                        <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+                            <h2 class="text-black fw-bold fs-5 me-2">2009-2011</h2>
+                            <h3 class="text-black fw-bold fs-4">Timeline Heading</h3>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe, eaque amet deleniti hic
+                                quas qui cumque delectus aliquid, eius quia quod, quae, aliquam aspernatur facilis.
+                                Minima quod corporis dignissimos porro.</p>
+                        </div>
+                        <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+                            <img src="image/about/4.jpg" class="img-fluid rounded-circle img-thumbnail" alt="img">
+                        </div>
+                        <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+                        </div>
+                      </div>
+  
+                      <div
+                          class="row no-gutters justify-content-end justify-content-md-around align-items-start  timeline-nodes">
+                          <div class="col-10 col-md-5 order-3 order-md-1 timeline-content">
+                          </div>
+                          <div class="col-2 col-sm-1 px-md-3 order-2 timeline-image text-md-center">
+                          </div>
+                          <div class="col-10 col-md-5 order-1 order-md-3 py-3 timeline-date">
+                          </div>
+                      </div>
+  
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- About -->
+      <!-- <section id="about" class="bg-dark">
+        <div class="container mt-5 my-5">
+          <div class="row">
+            <h2 class="fs-1 fw-bolder text-center">ABOUT</h2>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="col-md-12 whiteline d-flex flex-column align-items-center justify-content-center"> -->
+              <!-- boite1 -->
+              <!-- <div class="card leftbox my-2 " style="width: 18rem;">
+                <div class="card-body">
+                  <img src="image/about/1.jpg" class="bg-secondary p-1" width="70" alt="">
+                  <h5 class="card-title">2009-2011</h5>
+                  <h6 class="card-subtitle mb-2 text-body fs-7">Our Humble Beginnings</h6>
+                  <p class="card-text text-secondary fs-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                     Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
+                     recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                </div>
+                <span class="left-arrow"></span>
+              </div> -->
+              <!-- boite1 -->
+              <!-- boite2 -->
+              <!-- <div class="card rightbox" style="width: 18rem;">
+                <div class="card-body">
+                  <img src="image/about/2.jpg" class="bg-secondary p-1" width="70" alt="">
+                  <h5 class="card-title">March 2011</h5>
+                  <h6 class="card-subtitle mb-2 text-body fs-7">An Agency is Born</h6>
+                  <p class="card-text text-secondary fs-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
+                    recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                </div>
+                <span class="right-arrow"></span>
+              </div> -->
+              <!-- boite2 -->
+                <!-- boite3 -->
+                <!-- <div class="card leftbox my-2 " style="width: 18rem;">
+                  <div class="card-body">
+                    <img src="image/about/3.jpg" class="bg-secondary p-1" width="70" alt="">
+                    <h5 class="card-title">2009-2011</h5>
+                    <h6 class="card-subtitle mb-2 text-body fs-7">Our Humble Beginnings</h6>
+                    <p class="card-text text-secondary fs-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                       Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
+                       recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                  <span class="left-arrow"></span>
+                </div> -->
+                <!-- boite3 -->
+                <!-- boite4 -->
+                <!-- <div class="card rightbox" style="width: 18rem;">
+                  <div class="card-body">
+                    <img src="image/about/4.jpg" class="bg-secondary p-1" width="70" alt="">
+                    <h5 class="card-title">March 2011</h5>
+                    <h6 class="card-subtitle mb-2 text-body fs-7">An Agency is Born</h6>
+                    <p class="card-text text-secondary fs-8">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam,
+                      recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                  </div>
+                  <span class="right-arrow"></span>
+                </div> -->
+                <!-- boite4 -->
+            <!-- </div>
+          </div>
+        </div>
+      </section> -->
+      <!-- Team -->
+      <section id="team" class="bg-light py-5">
+        <div class="container text-center">
+          <div class="row mb-4">
+            <h2 class="fs-1 fw-bolder">OUR AMAZING TEAM</h2>
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="col-lg-4">
+              <div class="card border-0 bg-light align-items-center">
+                <img src="image/team/1.jpg" class="rounded-circle border border-5 w-50 h-50" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Parveen Anand</h5>
+                  <p class="card-text">Lead Designer</p>
+                  <i class="fa-brands fa-twitter text-white fs-5 circle"></i>
+                  <i class="fa-brands fa-facebook fs-5 text-white cercle"></i>
+                  <i class="fa-brands fa-linkedin-in fs-5 text-white circle"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card border-0 bg-light align-items-center">
+                <img src="image/team/2.jpg" class="rounded-circle border border-5 w-50 h-50" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Diana Petersen</h5>
+                  <p class="card-text">Lead Marketer</p>
+                  <i class="fa-brands fa-twitter text-white fs-5 circle"></i>
+                  <i class="fa-brands fa-facebook fs-5 text-white cercle"></i>
+                  <i class="fa-brands fa-linkedin-in fs-5 text-white circle"></i>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="card border-0 bg-light align-items-center">
+                <div></div>
+               <img src="image/team/3.jpg" class="rounded-circle border border-5 w-50 h-50" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Larry Parker</h5>
+                  <p class="card-text">Lead Developer</p>
+                  <i class="fa-brands fa-twitter text-white fs-5 circle"></i>
+                  <i class="fa-brands fa-facebook fs-5 text-white cercle"></i>
+                  <i class="fa-brands fa-linkedin-in fs-5 text-white circle"></i>
+                </div>
+              </div>
+            </div>
+            <div class="text text-secondary align-items-center mt-4 fs-5">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                 Aut eaque, laboriosam veritatis, quos <br> non quis ad perspiciatis,
+                  totam corporis ea, alias ut unde.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- reseaux sociaux -->
+      <div class="container my-5">
+        <div class="row ms-5">
+          <div class="col-lg-3 mb-3">
+            <div class="card border-0">
+             <img src="image/microsoft.svg" class="img-fluid w-75" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card border-0">
+             <img src="image/google.svg" class="img-fluid w-50" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3 mb-3">
+            <div class="card border-0">
+             <img src="image/facebook.svg" class="img-fluid w-75" alt="">
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="card border-0">
+             <img src="image/ibm.svg" class="img-fluid w-50" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- contact -->
+      <section id="contact" >
+        <div class="map">
+          <div class="container text-center py-5">
+            <div class="row">
+              <h2 class="fs-1 fw-bolder text-white">CONTACT US</h2>
+              <p class="text-secondary">Lorem ipsum dolor sit amet consectetur.</p>
+              <div class="col-lg-6 mt-3 ">
+                <div class="mb-3">
+                  <input type="email" class="form-control py-3" id="exampleFormControlInput1" placeholder="Your Name*">
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control py-3" id="exampleFormControlInput1" placeholder="Your Email*">
+                </div>
+                <div class="mb-3">
+                  <input type="email" class="form-control py-3" id="exampleFormControlInput1" placeholder="Your Phone*">
+                </div>
+              </div>
+              <div class="col-lg-6 mt-3">
+                <div class="mb-3">
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Your Message*" rows="8"></textarea>
+                </div
+              </div>
+            </div>
+          </div>
+          <div class="grif mt-3">
+            <button type="submit" class="btn btn-warning text-white px-3 py-3 fs-4 fw-bolder">SEND MESSAGE</button>
+          </div>
+        </div>
+      </section>
+      <!-- footer -->
+      <div class="container my-5 ">
+        <div class="row text-center">
+          <div class="col-lg-4">
+            <p>Copyright © Your Website 2023</p>
+          </div>
+          <div class="col-lg-4 mb-3">
+            <i class="fa-brands fa-twitter text-white fs-5 circle"></i>
+            <i class="fa-brands fa-facebook fs-5 text-white cercle"></i>
+            <i class="fa-brands fa-linkedin-in fs-5 text-white circle"></i>
+          </div>
+          <div class="col-lg-4">
+            <p>Privacy Policy <span class="ms-5"> Terms of Use</span></p>
+          </div>
+        </div>
+      </div>
+      <script src="main.js"></script>
+</body>
+</html>
