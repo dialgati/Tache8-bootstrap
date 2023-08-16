@@ -12,6 +12,32 @@
     background-position: center;
     background-size: cover;
 }
+.tek img{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+.modaux .taf{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: absolute;
+ width: 100%;
+ height: 100%;
+ color: white;
+text-decoration: none;
+background: rgba(255, 200, 0, 0.9);
+opacity: 0;
+transition: opacity ease-in-out 0.25s;
+}
+.modaux .taf:hover{
+    opacity: 1;
+}
+.modaux{
+    position: relative;
+    display: block;
+    margin: 0 auto;
+}
 .welcome{
     padding-top: 300px !important;
 } 
